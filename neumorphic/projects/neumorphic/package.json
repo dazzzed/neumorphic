@@ -1,8 +1,10 @@
 {
-  "name": "neumorphic",
+  "name": "@dazed/neumorphic",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^8.2.14",
-    "@angular/core": "^8.2.14"
-  }
+    "@angular/core": "^8.2.14",
+    "standard-version": "^7.1.0"
+  },
+  "devDendencies": {}
 }
