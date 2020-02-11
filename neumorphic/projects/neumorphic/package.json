@@ -1,10 +1,16 @@
 {
   "name": "@dazed/neumorphic",
-  "version": "0.0.1",
+  "version": "1.0.2",
+  "scripts": {
+    "build-lib": "ng build neumorphic",
+    "release": "standard-version",
+    "publish-neumorphic": "npm run build-lib && npm run release && cd ../../dist/neumorphic"
+  },
   "peerDependencies": {
     "@angular/common": "^8.2.14",
-    "@angular/core": "^8.2.14",
-    "standard-version": "^7.1.0"
+    "@angular/core": "^8.2.14"
   },
-  "devDendencies": {}
+  "devDependencies": {
+    "standard-version": "^7.1.0"
+  }
 }
