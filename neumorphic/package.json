@@ -1,6 +1,6 @@
 {
-  "name": "@dazzed/neumorphic",
-  "version": "1.0.4",
+  "name": "library",
+  "version": "1.0.5",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,8 +8,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "build-lib": "ng build neumorphic",
     "release": "standard-version",
-    "publish-neumorphic": "ng build neumorphic && npm run release && cd dist/neumorphic"
+    "publish-neumorphic": "npm run build-lib && cd ../../dist/neumorphic && npm publish --access public",
+    "release-publish": "npm run release && npm run publish-neumorphic"
   },
   "private": false,
   "dependencies": {
