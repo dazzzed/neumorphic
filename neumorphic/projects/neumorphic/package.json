@@ -1,17 +1,40 @@
 {
   "name": "@dazed/neumorphic",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "scripts": {
     "build-lib": "ng build neumorphic",
     "release": "standard-version",
-    "publish-neumorphic": "npm run build-lib  && npm run release &&  cd ../../dist/neumorphic && npm publish --access public"
+    "publish-neumorphic": "npm run build-lib && cd ../../dist/neumorphic && npm publish --access public",
+    "release-publish": "npm run release && npm run publish-neumorphic"
   },
   "peerDependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14"
   },
   "devDependencies": {
-    "standard-version": "^7.1.0"
+    "@angular-devkit/build-angular": "~0.803.25",
+    "@angular-devkit/build-ng-packagr": "~0.803.25",
+    "@angular/cli": "~8.3.19",
+    "@angular/compiler-cli": "~8.2.14",
+    "@angular/language-service": "~8.2.14",
+    "@types/jasmine": "~3.3.8",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
+    "codelyzer": "^5.0.0",
+    "jasmine-core": "~3.4.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~4.1.0",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-coverage-istanbul-reporter": "~2.0.1",
+    "karma-jasmine": "~2.0.1",
+    "karma-jasmine-html-reporter": "^1.4.0",
+    "ng-packagr": "^5.4.0",
+    "protractor": "~5.4.0",
+    "standard-version": "^7.1.0",
+    "ts-node": "~7.0.0",
+    "tsickle": "^0.37.0",
+    "tslint": "~5.15.0",
+    "typescript": "~3.5.3"
   },
   "private": false
 }
