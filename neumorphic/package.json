@@ -1,6 +1,6 @@
 {
   "name": "library",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,9 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build-lib": "ng build neumorphic",
+    "build_lib": "ng build neumorphic",
     "release": "standard-version",
-    "publish-neumorphic": "npm run build-lib && cd ../../dist/neumorphic && npm publish --access public",
+    "publish-neumorphic": "npm run build_lib && cd ../../dist/neumorphic && npm publish --access public",
     "release-publish": "npm run release && npm run publish-neumorphic"
   },
   "private": false,
