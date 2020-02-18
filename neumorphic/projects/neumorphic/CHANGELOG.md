@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.0.13](https://github.com/dazzzed/neumorphic/compare/v1.0.14...v1.0.13) (2020-02-18)
 
+### [1.0.13](https://github.com/dazzzed/neumorphic/compare/v1.0.14...v1.0.13) (2020-02-18)
+
 ### [1.0.14](https://github.com/dazzzed/neumorphic/compare/v1.0.13...v1.0.14) (2020-02-12)
 
 ### [1.0.13](https://github.com/dazzzed/neumorphic/compare/v1.0.12...v1.0.13) (2020-02-12)
