@@ -10,8 +10,11 @@
     "e2e": "ng e2e",
     "build-lib": "ng build neumorphic",
     "release": "standard-version",
-    "publish-neumorphic": "npm run build-lib && cd ../../dist/neumorphic && npm publish --access public",
-    "release-publish": "npm run release && npm run publish-neumorphic"
+    "publish-neumorphic": "npm run build-lib && cd ../../dist/neumorphic && npm publish",
+    "release-publish": "npm run publish-neumorphic && npm run release"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "private": false,
   "dependencies": {

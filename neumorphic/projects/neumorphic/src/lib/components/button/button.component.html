@@ -1,1 +1,7 @@
-<button>{{ action }}</button>
+<button
+  [style.backgroundColor]="hex"
+  [style.border]="border"
+  [style.boxShadow]="darkRgba + ',' + lightRgba"
+>
+  {{ action }}
+</button>
