@@ -2,7 +2,7 @@
   "name": "ngx-neumorphic",
   "version": "0.0.2",
   "scripts": {
-    "build-lib": "ng build neumorphic",
+    "build-lib": "ng build neumorphic --prod",
     "release": "standard-version",
     "publish-neumorphic": "npm run build-lib && cd ../../dist/neumorphic && npm publish --access public",
     "release-publish": "npm run publish-neumorphic && npm run release"
