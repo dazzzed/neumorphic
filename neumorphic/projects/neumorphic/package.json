@@ -1,6 +1,6 @@
 {
-  "name": "@dazzed/neumorphic",
-  "version": "1.0.21",
+  "name": "ngx-neumorphic",
+  "version": "0.0.1",
   "scripts": {
     "build-lib": "ng build neumorphic",
     "release": "standard-version",
